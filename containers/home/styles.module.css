@@ -1,0 +1,16 @@
+.homeContainer {
+  text-align: center;
+  padding: 50px;
+  margin-top: -50px; /* Yazıları yukarı kaydırmak için negatif margin */
+}
+
+.homeContainer h1 {
+  font-size: 48px;
+  margin-bottom: 2px;
+  margin-top: -10px;
+}
+
+.homeContainer p {
+  font-size: 24px;
+  margin-bottom: 5px;
+}

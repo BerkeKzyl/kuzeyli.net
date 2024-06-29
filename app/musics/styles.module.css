@@ -1,0 +1,58 @@
+.musicsPage {
+    text-align: center;
+    padding: 3px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .musicsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+    overflow-y: hidden;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .musicCard {
+    background-color: #f0c4c4;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: left;
+  }
+  
+  .musicCard h2 {
+    margin-bottom: 10px;
+  }
+  
+  .playButton {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .audio {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .pacificoFont {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem; /* İsteğe göre boyutlandırabilirsiniz */
+    margin-bottom: 10px; /* Başlık ve içerik arasına boşluk bırakıyoruz */
+  }
